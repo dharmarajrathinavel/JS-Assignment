@@ -1,0 +1,8 @@
+<script>
+console.log(1+"2"+"2");	//displays as 	122	 in console ,as it concartinates number with string.
+console.log(1+ +"2"+"2");	//displays as	32 	 in console ,as + + operator typecasting the string into number and adds it.
+console.log(1+ -"2"+"2");	//displays as 	-12 	 in console ,as + - operator typecasting the string into number and subtracts it.
+console.log(+"1"+"2"+"2");	//displays as 	122 	 in console ,as it simply concartinates all the string.
+console.log("A"-"B"+"2");	//displays as 	NaN2 	 in console ,because we can't perform (-) with strings ;but we can perform (+) operation which simply joins two strings.
+console.log("A"-"B"+2);	//displays as 	NaN 	 in console ,because we can't perform (-) with strings.
+</script>
