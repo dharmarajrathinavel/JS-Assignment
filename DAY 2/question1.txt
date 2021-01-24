@@ -1,0 +1,5 @@
+<script>
+const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+console.log(clothes[0])    //returns 'undefined' because of undefining the array elements by using the command, clothes.length=0;
+</script>
