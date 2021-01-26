@@ -1,0 +1,13 @@
+By 3 ways ,we can access elements in the DOM.
+
+1)	document.getElementByID():
+
+syntax =>	var element = document.getElementById(id);
+
+2)	document.getElementsByTagName():
+
+syntax =>	var element = document.getElementsByTagName(tag);
+
+3)	document.getElementsByClassName():
+
+syntax =>	var element = document.getElementsByClassName(class);

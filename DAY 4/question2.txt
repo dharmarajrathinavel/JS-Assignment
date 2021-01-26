@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Assignment4 | Question 2</title>
+<style>
+</style>
+</head>
+<body>
+Enter First Number : <input type="number" id="num1"><br>
+Enter Second Number : <input type="number" id="num2"><br>
+<button type="submit" id="add" onclick="add()">Add</button><input type="number" id="result">
+<script>
+function add()
+{
+document.getElementById("result").value = parseInt(document.getElementById("num1").value) + parseInt(document.getElementById("num2").value);
+}
+</script>
+</body>
+</html>
